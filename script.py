@@ -49,7 +49,7 @@ async def send_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     print("Immagine scaricata con successo.")
 
-    await update.message.reply_photo("C:/Users/nhkce/Desktop/bot/random_image.jpg")
+    await update.message.reply_photo("random_image.jpg")
     
 
 
